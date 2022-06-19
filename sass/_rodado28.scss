@@ -1,0 +1,26 @@
+/* rodado 28 */
+.bicis28{
+    & &_subtitulo {
+        font-family: 'Black Han Sans', sans-serif;     
+    }
+    & &_main &_comprar {
+        font-family: 'Black Han Sans', sans-serif;
+        color: map-get($colores-basicos, botones);
+        text-decoration: none;
+        width: 120%;
+    }
+    & &_comprar:hover {
+        color: map-get($colores-basicos, botonesHover);
+        font-size: 120%;
+       }
+}
+
+@media (max-width:480px) {
+    .bicis28 {
+        & &_main {
+            img {
+                max-width: 70%;
+            }
+        }
+    }
+}

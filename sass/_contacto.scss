@@ -1,0 +1,57 @@
+/* mixin */
+@mixin enviar ($color){
+    margin-top: 10%;
+	color: #f39407;	
+}
+
+
+/* CONTACTO */
+.Contacto {
+    height: 100%;
+    input, textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+        height: 15%;
+      }
+    &_form {
+    width: 50%;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 10px 20px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+	height: 70%;
+    .brevedad {
+        font-family: 'Black Han Sans', sans-serif;
+      }
+    }
+}
+
+/* CELULAR */
+@media (max-width:480px) {    
+	.Contacto {
+		height: 100%;	
+	}
+
+	.brevedad {
+		font-size: 10px;
+	}
+	.Contacto input {
+		font-size: 10px;
+	}
+	.Contacto textarea {
+		font-size: 10px;
+	}
+	#boton {
+		@include: enviar (#f39407);
+	}
+	footer {
+		margin-bottom: 0px;
+	}
+}

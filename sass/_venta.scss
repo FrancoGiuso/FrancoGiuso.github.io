@@ -1,0 +1,31 @@
+/* --------------------VENTA--- */
+
+.formulario-venta {
+	max-width: 80%;
+	margin-left: 10%;
+}
+
+.subtitulo-venta {
+	font-family: 'Black Han Sans', sans-serif;
+	text-align: center;
+	color: rgb(58, 66, 66);
+}
+.debito-credito {
+	margin-left: 10%;
+	font-family: 'Black Han Sans', sans-serif;
+	color: map-get($colores-basicos, botones);
+	font-size: 110%;
+}
+.pagar {
+	margin-left: 90%;
+	
+}
+.boton-enviar {
+	font-family: 'Black Han Sans', sans-serif;
+	color: map-get($colores-basicos, botones);
+}
+.boton-enviar:hover {
+	color: map-get($colores-basicos, botones);
+	background-color:rgb(58, 66, 66);
+	font-family: 'Black Han Sans', sans-serif;
+}
