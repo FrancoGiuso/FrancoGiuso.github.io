@@ -1,0 +1,134 @@
+@import 'accesorios';
+@import 'contacto';
+@import 'rodado20';
+@import 'rodado28';
+@import 'venta';
+
+
+
+/* maps */
+$colores-basicos: (
+    fondo:#d8bdbd,
+    titulos:#f39407,
+    botones: red,
+    botonesHover: #f39407,
+);
+
+*{
+    overflow: hidden;
+    body, .menunav {
+        background:map-get($colores-basicos, fondo);
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    }
+} 
+
+/* HEADER */
+.contenedor {
+    background: map-get($colores-basicos, fondo);
+    & .header {
+        grid-area: header;
+    width: 100%;
+	background-image: url('../Imagenes/Trama.PNG');
+    h1 {
+        color: #000;
+	    text-align: center;
+	    font-family: 'Black Han Sans', sans-serif;
+    }
+    .logo img {
+        max-width: 12%;
+        height: auto;
+        min-height: 20px;
+        
+    }
+    }
+    .header {
+        .menunav {
+            #canal {
+                color: map-get($colores-basicos, botones);
+            }
+            .nav-link {
+                color: #000;
+                font-family: 'Black Han Sans', sans-serif;
+            }
+            .nav-link:hover {
+                color: map-get($colores-basicos, botonesHover);
+            }
+            #navbar {
+                background:map-get($colores-basicos, fondo);
+            }
+        }
+    }
+}
+
+@media (max-width:480px) {
+    .contenedor {
+        .header {
+            .logo {
+                width: 700px;
+            }
+            .navbar-brand{
+                font-size: 12px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+/* INDEX */
+
+.index_main {
+    .descripcion-mas-vendidos {
+        color: black;
+        background-color: white;}
+    p {
+        text-align: center;
+        font-family: 'Black Han Sans', sans-serif;
+        color: map-get($colores-basicos, titulos);
+    }
+    & &_youtube {
+        & & &_titulo-yt {
+             p {
+                 text-align: center;
+                 font-family: 'Black Han Sans', sans-serif;
+                 color: map-get($colores-basicos, titulos);
+             }
+         }
+     }
+    
+    .botonComprar {
+        color: map-get($colores-basicos, botones);
+        text-decoration: none;
+        font-family: 'Black Han Sans', sans-serif;
+    }
+    .botonComprar:hover {
+        color: map-get($colores-basicos, botonesHover);
+        font-size: 120%;
+    }
+}
+ 
+@media (max-width:480px) {
+    #masVendidos {
+        max-width: 70%;
+        }
+        .botonComprar {
+            width: 200%;
+            justify-content: left;
+        }
+        * {
+            overflow: hidden;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+

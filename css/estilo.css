@@ -1,0 +1,242 @@
+/* ACCESORIOS */
+.acc .acc_subtitulo {
+  font-family: "Black Han Sans", sans-serif;
+}
+.acc .acc_main .acc_comprar {
+  font-family: "Black Han Sans", sans-serif;
+  color: red;
+  text-decoration: none;
+  width: 120%;
+}
+.acc .acc_comprar:hover {
+  color: #f39407;
+  font-size: 120%;
+}
+
+@media (max-width: 480px) {
+  .acc .acc_main img {
+    max-width: 70%;
+  }
+}
+/* CONTACTO */
+.Contacto {
+  height: 100%;
+}
+.Contacto input, .Contacto textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  height: 15%;
+}
+.Contacto_form {
+  width: 50%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  height: 70%;
+}
+.Contacto_form .brevedad {
+  font-family: "Black Han Sans", sans-serif;
+}
+
+@media (max-width: 480px) {
+  /* CELULAR */
+  .Contacto {
+    height: 100%;
+  }
+
+  .brevedad {
+    font-size: 10px;
+  }
+
+  .Contacto input {
+    font-size: 10px;
+  }
+
+  .Contacto textarea {
+    font-size: 10px;
+  }
+
+  #boton {
+    margin-top: 10%;
+  }
+
+  footer {
+    margin-bottom: 0px;
+  }
+}
+/* rodado 20 */
+.bmx .bmx_subtitulo {
+  font-family: "Black Han Sans", sans-serif;
+}
+.bmx .bmx_main .bmx_comprar {
+  font-family: "Black Han Sans", sans-serif;
+  color: red;
+  text-decoration: none;
+  width: 120%;
+}
+.bmx .bmx_comprar:hover {
+  color: #f39407;
+  font-size: 120%;
+}
+
+@media (max-width: 480px) {
+  .bmx .bmx_main .bmx_comprar {
+    font-family: "Black Han Sans", sans-serif;
+    color: red;
+    text-decoration: none;
+    width: 120%;
+  }
+  .bmx .bmx_comprar:hover {
+    color: #f39407;
+    font-size: 120%;
+  }
+  .bmx .bmx_main img {
+    max-width: 70%;
+  }
+}
+/* rodado 28 */
+.bicis28 .bicis28_subtitulo {
+  font-family: "Black Han Sans", sans-serif;
+}
+.bicis28 .bicis28_main .bicis28_comprar {
+  font-family: "Black Han Sans", sans-serif;
+  color: red;
+  text-decoration: none;
+  width: 120%;
+}
+.bicis28 .bicis28_comprar:hover {
+  color: #f39407;
+  font-size: 120%;
+}
+
+@media (max-width: 480px) {
+  .bicis28 .bicis28_main img {
+    max-width: 70%;
+  }
+}
+/* --------------------VENTA--- */
+.formulario-venta {
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.subtitulo-venta {
+  font-family: "Black Han Sans", sans-serif;
+  text-align: center;
+  color: rgb(58, 66, 66);
+}
+
+.debito-credito {
+  margin-left: 10%;
+  font-family: "Black Han Sans", sans-serif;
+  color: #f39407;
+  font-size: 110%;
+}
+
+.pagar {
+  margin-left: 90%;
+}
+
+.boton-enviar {
+  font-family: "Black Han Sans", sans-serif;
+  background-color: #f39407;
+}
+
+.boton-enviar:hover {
+  color: #f39407;
+  background-color: rgb(58, 66, 66);
+  font-family: "Black Han Sans", sans-serif;
+}
+
+/* maps */
+* body, * .menunav {
+  background: #d8bdbd;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+.contenedor {
+  background: #d8bdbd;
+}
+.contenedor .header {
+  grid-area: header;
+  width: 100%;
+  background-image: url("../Imagenes/Trama.PNG");
+}
+.contenedor .header h1 {
+  color: #000;
+  text-align: center;
+  font-family: "Black Han Sans", sans-serif;
+}
+.contenedor .header .logo img {
+  max-width: 12%;
+  height: auto;
+  min-height: 20px;
+}
+.contenedor .header .menunav #canal {
+  color: red;
+}
+.contenedor .header .menunav .nav-link {
+  color: #000;
+  font-family: "Black Han Sans", sans-serif;
+}
+.contenedor .header .menunav .nav-link:hover {
+  color: #f39407;
+}
+.contenedor .header .menunav #navbar {
+  background: #d8bdbd;
+}
+
+@media (max-width: 480px) {
+  .contenedor .header .logo {
+    width: 700px;
+  }
+  .contenedor .header .navbar-brand {
+    font-size: 12px;
+  }
+  .contenedor .header h1 {
+    font-size: 20px;
+  }
+}
+/* INDEX */
+.index_main .descripcion-mas-vendidos {
+  color: black;
+  background-color: white;
+}
+.index_main p {
+  text-align: center;
+  font-family: "Black Han Sans", sans-serif;
+  color: #f39407;
+}
+.index_main .index_main_youtube .index_main .index_main_youtube .index_main .index_main_youtube_titulo-yt p {
+  text-align: center;
+  font-family: "Black Han Sans", sans-serif;
+  color: #f39407;
+}
+.index_main .botonComprar {
+  color: red;
+  text-decoration: none;
+  font-family: "Black Han Sans", sans-serif;
+}
+.index_main .botonComprar:hover {
+  color: #f39407;
+  font-size: 120%;
+}
+
+@media (max-width: 480px) {
+  #masVendidos {
+    max-width: 70%;
+  }
+
+  .botonComprar {
+    width: 200%;
+  }
+}/*# sourceMappingURL=estilo.css.map */
