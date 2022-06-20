@@ -1,13 +1,22 @@
+$colores-basicos: (
+    fondo:#d8bdbd,
+    titulos:#f39407,
+    botones: red,
+    botonesHover: #f39407,
+);
+
 /* rodado 28 */
 .bicis28{
     & &_subtitulo {
-        font-family: 'Black Han Sans', sans-serif;     
+        font-family: 'Black Han Sans', sans-serif;
+        color: map-get($colores-basicos, titulos);     
     }
     & &_main &_comprar {
         font-family: 'Black Han Sans', sans-serif;
         color: map-get($colores-basicos, botones);
         text-decoration: none;
         width: 120%;
+        margin-left: 600px;
     }
     & &_comprar:hover {
         color: map-get($colores-basicos, botonesHover);
@@ -17,10 +26,23 @@
 
 @media (max-width:480px) {
     .bicis28 {
+        & &_main &_comprar {
+            font-family: 'Black Han Sans', sans-serif;
+            color: map-get($colores-basicos, botones);
+            text-decoration: none;
+            width: 120%;
+            margin-left: 240px;
+        }
+        & &_comprar:hover {
+            color: map-get($colores-basicos, botonesHover);
+            font-size: 120%;
+
+           }
         & &_main {
             img {
                 max-width: 70%;
             }
         }
     }
+    
 }

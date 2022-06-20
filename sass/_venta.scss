@@ -1,3 +1,10 @@
+$colores-basicos: (
+    fondo:#d8bdbd,
+    titulos:#f39407,
+    botones: red,
+    botonesHover: #f39407,
+);
+
 /* --------------------VENTA--- */
 
 .formulario-venta {
@@ -13,7 +20,7 @@
 .debito-credito {
 	margin-left: 10%;
 	font-family: 'Black Han Sans', sans-serif;
-	color: map-get($colores-basicos, botones);
+	/* color: map-get($colores-basicos, botones) */;
 	font-size: 110%;
 }
 .pagar {
@@ -22,10 +29,10 @@
 }
 .boton-enviar {
 	font-family: 'Black Han Sans', sans-serif;
-	color: map-get($colores-basicos, botones);
+	/* color: map-get($colores-basicos, botones); */
 }
 .boton-enviar:hover {
-	color: map-get($colores-basicos, botones);
+	/* color: map-get($colores-basicos, botones); */
 	background-color:rgb(58, 66, 66);
 	font-family: 'Black Han Sans', sans-serif;
 }

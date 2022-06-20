@@ -4,6 +4,12 @@
 	color: #f39407;	
 }
 
+$colores-basicos: (
+    fondo:#d8bdbd,
+    titulos:#f39407,
+    botones: red,
+    botonesHover: #f39407,
+);
 
 /* CONTACTO */
 .Contacto {
@@ -29,6 +35,7 @@
 	height: 70%;
     .brevedad {
         font-family: 'Black Han Sans', sans-serif;
+		color: map-get($colores-basicos, fondo);
       }
     }
 }
@@ -49,7 +56,9 @@
 		font-size: 10px;
 	}
 	#boton {
-		@include: enviar (#f39407);
+		/* @include: enviar (#f39407); */
+		margin-top: 10%;
+		
 	}
 	footer {
 		margin-bottom: 0px;
