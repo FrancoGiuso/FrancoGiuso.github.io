@@ -189,10 +189,13 @@
 * {
   overflow-x: hidden;
 }
-* body, * .menunav {
+* .menunav {
   background: #d8bdbd;
   color: #000;
   font-family: "Roboto", sans-serif;
+}
+* body, * head {
+  background: linear-gradient(to bottom, #d8bdbd, white);
 }
 
 /* HEADER */

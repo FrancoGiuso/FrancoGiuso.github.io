@@ -16,10 +16,14 @@ $colores-basicos: (
 
 *{
     overflow-x: hidden;
-    body, .menunav {
+    .menunav {
         background:map-get($colores-basicos, fondo);
         color: #000;
         font-family: 'Roboto', sans-serif;
+    }
+    body, head{
+        background: linear-gradient(to bottom, #d8bdbd, white);
+
     }
 } 
 
