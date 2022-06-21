@@ -15,7 +15,7 @@ $colores-basicos: (
 );
 
 *{
-    overflow: hidden;
+    overflow-x: hidden;
     body, .menunav {
         background:map-get($colores-basicos, fondo);
         color: #000;
@@ -117,13 +117,9 @@ $colores-basicos: (
             justify-content: left;
         }
         * {
-            overflow: hidden;
+            overflow-x: hidden;
         }
     }
-
-
-
-
 
 
 

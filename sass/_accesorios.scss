@@ -1,3 +1,10 @@
+$colores-basicos: (
+    fondo:#d8bdbd,
+    titulos:#f39407,
+    botones: red,
+    botonesHover: #f39407,
+);
+
 /* ACCESORIOS */
 .acc{
     & &_subtitulo {
@@ -9,6 +16,7 @@
         color: map-get($colores-basicos, botones);
         text-decoration: none;
         width: 120%;
+        margin-left: 600px;
     }
     & &_comprar:hover {
         color: map-get($colores-basicos, botonesHover);
@@ -18,10 +26,23 @@
 
 @media (max-width:480px) {
     .acc {
+        & &_main &_comprar {
+            font-family: 'Black Han Sans', sans-serif;
+            color: map-get($colores-basicos, botones);
+            text-decoration: none;
+            width: 120%;
+            margin-left: 240px;
+        }
+        & &_comprar:hover {
+            color: map-get($colores-basicos, botonesHover);
+            font-size: 120%;
+
+           }
         & &_main {
             img {
                 max-width: 70%;
             }
         }
     }
+    
 }
